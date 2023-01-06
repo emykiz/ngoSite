@@ -14,7 +14,7 @@
   
   .membership-section {
     width:100% !important;
-    /* height: 100vh !important; */
+    height: 100vh !important;
     display: flex !important;
     justify-content: center !important;
 
@@ -30,7 +30,7 @@
     margin: auto;
     justify-content: center;
     align-items: center;
-    /* height:90%; */
+    height:200px;
     background-color: rgba(226, 226, 226, 0.651) !important;
   }
   .sign-up-container {
@@ -40,10 +40,12 @@
     padding:20px;
     margin: auto;
     font-size:13px;
-    border: 1px solid #707070;
+    /* border: 1px solid #707070; */
     border-radius: 10px;
     margin: auto;
-    overflow: scroll;
+    height: 70vh;
+    overflow-y: scroll;
+    margin-top: 50px;
   }
   .logo-design{
     display: flex;
@@ -57,6 +59,10 @@
 
   .sign-up-container .flex input, .sign-up-container select{
     width:90%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding-left: 10px;
   }
   .sign-up-container .flex .Eye2, .sign-up-container .flex .hide2{
     right: 30px;
@@ -86,7 +92,7 @@
     gap:1em;
   }
   .create-acct{
-    background-color: #747373a4;
+    background-color: #a55e5ea4;
     border-radius: 24px;
     opacity: 1;
     border: none;
@@ -122,6 +128,12 @@
     flex-wrap: wrap;
     gap:2em;
     margin-bottom: 20px;
+}
+.extraNav{
+    background-color: rgba(40, 58, 90, 0.9) !important;
+}
+.margin{
+    margin-top: 100px;
 }
 @media only screen and (max-width:395px){
     .galerry img{
