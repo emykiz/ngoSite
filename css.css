@@ -43,6 +43,7 @@
     border: 1px solid #707070;
     border-radius: 10px;
     margin: auto;
+    overflow: scroll;
   }
   .logo-design{
     display: flex;
@@ -107,6 +108,7 @@
   }
 .Duration{
     display: flex;
+    flex-direction: column;
     gap:1em;
 }
 .flex{
@@ -114,6 +116,15 @@
     flex-direction: column;
 }
 .galerry{
+    margin: auto;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap:2em;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width:395px){
+    .galerry img{
+        width:90%;
+    }
 }
