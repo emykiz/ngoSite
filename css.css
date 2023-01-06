@@ -6,6 +6,10 @@
     justify-content: center;
     align-items: center;
     border-radius:15px;
+    margin-left: 20px;
+    width:150px;
+    height:40px;
+    cursor: pointer;
   }
   
   .membership-section {
@@ -40,7 +44,15 @@
     border-radius: 10px;
     margin: auto;
   }
-
+  .logo-design{
+    display: flex;
+    gap:1em;
+  }
+  .designNav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
 
   .sign-up-container .flex input, .sign-up-container select{
     width:90%;
@@ -78,9 +90,10 @@
     opacity: 1;
     border: none;
     width:100%;
-    height:40px;
+    height:30px;
     color:white;
     margin-top: 20px;
+    cursor: pointer;
   }
   hr{
     margin: 0;
@@ -94,4 +107,13 @@
   }
 .Duration{
     display: flex;
+    gap:1em;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.galerry{
+    display: flex;
+    gap:2em;
 }
