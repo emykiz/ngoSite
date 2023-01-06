@@ -1,0 +1,97 @@
+.list-membership {
+    border:1px solid #47b2e4;
+    color:white; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:15px;
+  }
+  
+  .membership-section {
+    width:100% !important;
+    /* height: 100vh !important; */
+    display: flex !important;
+    justify-content: center !important;
+
+  }
+  .modal-show {
+    visibility: hidden;
+    z-index: 999;
+    position: fixed;
+    top:60px;
+    left:0;
+    width:50%;
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* height:90%; */
+    background-color: rgba(226, 226, 226, 0.651) !important;
+  }
+  .sign-up-container {
+    width:350px;
+    background-color: #FFFFFF;
+    color:black;
+    padding:20px;
+    margin: auto;
+    font-size:13px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    margin: auto;
+  }
+
+
+  .sign-up-container .flex input, .sign-up-container select{
+    width:90%;
+  }
+  .sign-up-container .flex .Eye2, .sign-up-container .flex .hide2{
+    right: 30px;
+    top:35px;
+    cursor: pointer;
+  }
+  .sign-up-container form{
+    display: flex;
+    flex-direction: column;
+    gap:0.5em;
+    font-size:11px;
+  
+  }
+  .sign-up-container form p{
+    text-align: center;
+  }
+  .sign-up-container select{
+  
+  }
+  .checkers{
+    width:15px;
+    height:15px;
+  }
+  .check-flex{
+    display: flex;
+    align-items: center;
+    gap:1em;
+  }
+  .create-acct{
+    background-color: #747373a4;
+    border-radius: 24px;
+    opacity: 1;
+    border: none;
+    width:100%;
+    height:40px;
+    color:white;
+    margin-top: 20px;
+  }
+  hr{
+    margin: 0;
+  }
+  .top{
+    display: none;
+  }
+  .modal-new{
+    visibility: visible;
+    z-index: 999;
+  }
+.Duration{
+    display: flex;
+}

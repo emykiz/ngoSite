@@ -255,3 +255,18 @@
   });
 
 })()
+
+
+const btnModal=document.querySelector(".list-membership")
+const closeBtn=document.querySelector(".close-btn")
+const modalShow=document.querySelector(".membership-section")
+
+btnModal.addEventListener("click", function(){
+  console.log("click");
+  console.log(modalShow);
+   modalShow.classList.add('modal-new')
+
+})
+closeBtn.addEventListener("click", function(){
+    modalShow.classList.remove('modal-new')
+})

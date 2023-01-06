@@ -1854,3 +1854,12 @@ section {
     padding-top: 4px;
   }
 }
+.list-membership{
+  border:1px solid #47b2e4;
+  color:white; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:
+}
