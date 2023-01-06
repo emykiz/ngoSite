@@ -135,6 +135,10 @@
 .margin{
     margin-top: 100px;
 }
+.color{
+    color:black !important;
+    display: block !important;
+}
 @media only screen and (max-width:395px){
     .galerry img{
         width:90%;
