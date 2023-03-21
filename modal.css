@@ -1,21 +1,22 @@
 *{
     box-sizing: border-box;
     margin:0;
+    font-family: poppins;
 }
-body{
+.body{
     background-image:url(images/Capture.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
     background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, 0.863);
+    background-color: rgba(0, 0, 0, 0.788);
     position: relative;
   flex-direction: column;
 display: flex;
     justify-content: space-between;
     align-items:baseline;
-    height: 100vh; 
-    font-family: poppins;
+    height: 91vh; 
+    
 }
 header{
     width:100%;
@@ -28,7 +29,7 @@ header{
     width:250px;
     margin: auto;
     background-color: white;
-    margin-top: 100px;
+    margin-top: 70px;
     border-radius: 5px;
     display:flex;
     /* justify-content: center; */
@@ -112,9 +113,12 @@ footer{
 @media only screen and (max-width:400px){
     .container{
         width:50%;
-        font-size: smaller;
+        
     }
     footer{
         font-size: 10px;
+    }
+    .same{
+        font-size: 7px !important;
     }
 }
